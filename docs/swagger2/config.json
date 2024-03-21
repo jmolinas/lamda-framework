@@ -1,0 +1,29 @@
+{
+  "name": "<NAME>",
+  "description": "<DESCRIPTION>",
+  "version": "<VERSION>",
+
+  "contact": {
+    "name": "<DEVELOPER>",
+    "email": "<EMAIL>"
+  },
+
+  "development": "<DEVELOP ENVIRONMENT BASE URL>",
+  "tags": [
+    {
+      "name": "PUBLIC",
+      "description": "Publicly accessible APIs"
+    },
+    {
+      "name": "AUTHENTICATED",
+      "description": "Only authenticated user can access"
+    }
+  ],
+  "security_schemes": {
+    "authenticated": {
+      "type": "http",
+      "scheme": "bearer",
+      "bearerFormat": "JWT"
+    }
+  }
+}
